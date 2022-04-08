@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* color: #212529; */
+a{
+    text-decoration: none;
+}
+/* header section code css */
+#header-top{width: 100%;background-color: rgb(9, 11, 10);}
+.i-tags a i{margin-left: 18px;color: white;margin-top: 26px;font-size: 18px;transition: 0.5s;}
+#header-top .i-tags a i:hover{color: #E5BF4A;transform: rotateY(180deg);;transition: 0.5s;}
+#header-top .contact-btn a{color: #E5BF4A;border: 1px solid #E5BF4A;display: inline-block;padding: 11px 20px;text-transform: capitalize;font-size: 16px;text-decoration: none;transition: 0.5s;}
+#header-top .contact-btn{background-color: #212529;margin-top: 12px;}
+#header-top .contact-btn a:hover{background-color: #E5BF4A;color: #fff;transition: 0.5s;}
+#header-bottom{text-align: center;padding-top: 20px;background-color: rgb(9, 11, 10);}
+#header-bottom ul li{padding-left: 30px;position: relative;}
+#header-bottom ul li a{text-decoration: none;color: #fff;font-size: 16px;transition: 0.5s;}
+#header-bottom ul li a:hover{color: #E5BF4A;transition: 0.5s;}
+#header-bottom ul li::before{position: absolute;content: '';width: 0px;height: 2px;left: 25px;bottom: -3px; background-color: #E5BF4A;transition: 0.5s;}
+#header-bottom ul li:hover::before{ width: 80%;transition: 0.5s;}
+
+#banner{background-image: url(../image/cover.png);background-position: center;background-repeat: no-repeat;background-size: cover;height: 100vh;}
+#banner .left{padding-top: 15%;}
+#banner .h-tag{font-size: 70px; margin-bottom: 41px;color: #fff; line-height: 1.2;font-family: "Poiret One",cursive;font-style: normal;animation-delay: 0.3s;}
+.left .order-btn{background: #E5BF4A;border: 1px solid #2A2A2A;font-size: 15px; font-weight: 400;display: inline-block; padding: 22px 41px;text-transform: uppercase;line-height: 15px; border-radius: 0px;transition: 0.5s;}
+.left .order-btn a{text-decoration: none;color: #212529;}
+.left .order-btn:hover{background-color: rgb(9, 11, 10);border: 1px solid #E5BF4A;color: #E5BF4A !important;transition: 0.5s;}
+
+#title .title-p h2{color: #dfdfdf;font-family: "Poiret One",cursive;display: block;line-height: 1.5;margin-bottom: 12px;align-items: center;text-align: center;}
+#title{width: 100%;padding: 100px 0px;background-color: rgb(9, 11, 10);}
+.line{ height: 3px; width: 100px; background-color: #E5BF4A; margin-bottom: 20px; margin-top: 25px;margin-left: 40%;}
+.t-title h2{color: #bba151;font-size: 24px;padding-left: 0;font-weight: 300;margin-bottom: 28px;font-family: "Poiret One",cursive;}
+.t-title p{color: #fff;font-size: 14px; font-weight: 300;line-height: 1.5;font-family: "Jost",sans-serif;}
+#post{background-color: rgb(9, 11, 10);}
